@@ -2,7 +2,11 @@
 export default {
     content: ["./index.html", "./src/**/*.vue"],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                sans: ["IBM Plex Sans", "sans-serif"],
+            },
+        },
     },
     plugins: [],
 };
